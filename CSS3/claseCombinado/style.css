@@ -1,0 +1,14 @@
+
+/*
+
+    Hermano iguales que respeten el orden
+
+*/
+
+h2 + p {
+    color: red;
+}
+
+h3 + p {
+    color: gray;
+}

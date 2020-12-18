@@ -1,0 +1,28 @@
+/* Reset valores universal */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 50vh;
+    background-color: purple;
+}
+
+section {
+    /* Delimitar el crecimiento y reduccion en el tamaño del ancho */
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+
+    /* Si el contenido es max grande de 500 px entonces crece */
+    min-height: 500px;
+
+    /* centrar section en el lado horizontal */
+    margin: 0 auto;
+
+    background-color: red;
+}

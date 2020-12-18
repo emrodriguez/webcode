@@ -1,0 +1,10 @@
+
+/*
+
+    Hermanos generales en el mismo nivel
+    
+*/
+
+h2 ~ p {
+    color: red;
+}

@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+.navbar {
+    background-color: #c23616;
+}
+
+.navbar ul {
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;
+    right: -60vw;
+    padding: 0 1rem;
+}
+
+.brand {
+    position: relative;
+    left: -60vw;
+    font-size: 2.4rem;
+    padding: 0 2rem;
+}
+
+main {
+    background-color: #f5f6fa;
+    width: 100%;
+}
+
+aside {
+    background-color: #e84118;
+    width: 30%;
+    min-height: 700px;
+    display: inline-block;
+}
+
+section {
+    width: 65%;
+    display: inline-block;
+}
+
+.card {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 10px;
+    width: 100wh;
+    height: 150px;
+}
+
+footer {
+    background-color: #c0392b;
+    height: 75px;
+}
